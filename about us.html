@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mizam De Czar</title>
+    <link
+      rel="shortcut icon"
+      href="./gambar/logo (2).png"
+      type="image/x-icon"
+    />
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- FEATHER ICON -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- FONT AWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm fixed-top" id="navbar">
+      <div class="container">
+        <a href="index.html" class="navbar-brand" id="logo">
+          <img src="./gambar/logo (2).png" alt="" />
+          <span class="website-name">Mizam De Czar</span>
+          <!-- Tambahkan teks nama website di sini -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav ms-auto">
+            <!-- ms-auto untuk membuat navbar berada di sebelah kanan -->
+            <li class="nav-item">
+              <a href="home.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about us.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="orders.html" class="nav-link">Orders</a>
+            </li>
+            <li class="nav-item">
+              <a href="our team.html" class="nav-link">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- About Us-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="./gambar/fotbar.jpg"
+              alt="Hero Image"
+              class="fotbar-image"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title"><span>About</span> Us</h1>
+            <p class="description">
+              Kita adalah satu dalam ikatan seragam putih abu. Melepas tawa
+              berbagi duka, mengoyak asa dikala kita bertemu. Masih tentang
+              titik temu yang masih dalam semoga. Walau kita banyak beradu,
+              namun tetap jua satu. Cerita ini masih sama, pertemanan lama yang
+              terikat erat hingga fajar menjemput untuk kembali bersandiwara dan
+              menceritakan cerita baru. Kita...memahami arti kebersamaan,
+              memahami arti kebahagiaan, dan memahami arti kesederhanaan. Inilah
+              kami, <strong>"Mizam De Czar (The Mighty Czar Standing Fii Ufuqi Al
+                'Alamiah) Pemimpin yang Berdiri di atas Cakrawala Dunia".</strong>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-col-2">
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('gambar')">
+                Filosofi Gambar
+              </p>
+              <p class="tab-links" onclick="opentab('warna')">Filosofi Warna</p>
+            </div>
+            <div class="tab-contents active-tab" id="gambar">
+              <p class="content">
+                <p><strong>Daun Semanggi:</strong> Berjumlah 4 helai dipercaya
+                  sebagai pembawa keberuntungan dan setiap helai daun melambangkan
+                  <i>hope</i> (harapan) dan
+                  <i>love luck</i> (keberuntungan).</p>
+                <p><strong>Kompas:</strong> Mimpi kita bukan hanya satu titik kecil
+                  tapi mimpi kita seluas langit dan bumi.</p>
+                <p><strong>Lingkaran:</strong> Bersatu, melindungi, dan kekekalan
+                  dalam ikatan sebagai pemimpin.</p>
+                <p><strong>Garis Lurus:</strong> Ketegasan dan keseriusan dalam
+                  menggapai mimpi dan memiliki 28 garis lurus yang menandakan
+                  jumlah pemimpin yang lahir pada angkatan Mizam De Czar.</p>
+              </p>
+            </div>
+            <div class="tab-contents" id="warna">
+              <p class="content">
+                <p><strong>Hitam:</strong> Ketegasan, profesional, dan kredibilitas
+                  sebuah anggota.</p>
+                <p><strong>Putih:</strong> Kebebasan, keterbukaan, dan bebas dari
+                  apapun.</p>
+                <p><strong>Emas:</strong> Optimisme dan kegembiraan kepada
+                  orang-orang yang melihatnya.</p>
+              </p>
+            </div>
+          </div>
+          <div class="about-col-1">
+            <img src="./gambar/hero.jpg" alt="Hero Image" class="hero-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us-->
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="f-content">
+        <div class="f-logo">
+          <img src="./gambar/logomizam.png" alt="Logo" />
+        </div>
+        <p>Generation VII of Manba'ul 'Ulum 2 Islamic Boarding School</p>
+        <div class="social-links">
+          <a href="https://github.com/knurasyikhaR"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://instagram.com/isykhaa_?igshid=OGQ5ZDc2ODk2ZA=="
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/kholifah-nur-asyikha-r-481491237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <br />
+      <div class="c-content">
+        &copy; Copyright 2024 | Mizam De Czar <br />
+        <span>Create by <a href="#home">Mizam De Czar</a></span>
+      </div>
+    </footer>
+
+    <!-- SCRIPT JS -->
+    <script>
+      function opentab(tabname) {
+        var i;
+        var x = document.getElementsByClassName("tab-contents");
+        var y = document.getElementsByClassName("tab-links");
+        for (i = 0; i < x.length; i++) {
+          x[i].classList.remove("active-tab");
+        }
+        for (i = 0; i < y.length; i++) {
+          y[i].classList.remove("active-link");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+      }
+    </script>
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
